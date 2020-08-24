@@ -1,0 +1,16 @@
+/* About Button */
+.about-btn {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    left: 10%;
+    top: 22%;
+}
+
+.about-btn p {
+    color: #f23557;
+    font-size: 1.875em;
+    font-weight: normal;
+    margin-right: 0.5em;
+    margin-top: -10px;
+}
