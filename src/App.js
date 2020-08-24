@@ -1,11 +1,13 @@
 import React from 'react';
+import Logo from './components/logo/Logo';
+
 import './App.css';
 
 function App() {
   return (
-    <div>
-      Portfolio V4
-    </div>
+    <main className="container">
+      <Logo />
+    </main>
   );
 }
 
