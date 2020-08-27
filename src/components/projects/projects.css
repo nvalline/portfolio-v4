@@ -1,0 +1,19 @@
+/* Projects Btn */
+.projects-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 72%;
+    top: -10%;
+    width: 170px;
+}
+
+.projects-btn p {
+    color: #22b2da;
+    font-size: 1.875em;
+    font-weight: normal;
+    margin: 10px;
+}
