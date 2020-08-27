@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './contact.css';
 import square from '../../img/square.svg';
 
 function ContactBtn() {
+    const [isShown, setIsShown] = useState(false);
+
     return (
-        <div className="contact-btn">
+        <div
+            className="contact-btn"
+            onMouseEnter={() => setIsShown(true)}
+            onMouseLeave={() => setIsShown(false)}
+        >
             <img src={square} alt="square" />
-            <p>Contact</p>
+            <p className={isShown ? "showing" : "notShowing"}>Contact</p>
         </div>
     )
 }

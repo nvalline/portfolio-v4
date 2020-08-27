@@ -18,3 +18,15 @@
     font-size: 1.875em;
     font-weight: normal;
 }
+
+.notShowing {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+
+.showing {
+    visibility: visible;
+    transition: visibility 1s, opacity 0.5s linear;
+    opacity: 1;
+}

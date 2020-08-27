@@ -17,3 +17,15 @@
     font-weight: normal;
     margin: 10px;
 }
+
+.notShowing {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 1s, opacity 0.5s linear;
+}
+
+.showing {
+    visibility: visible;
+    transition: visibility 1s, opacity 0.5s linear;
+    opacity: 1;
+}
