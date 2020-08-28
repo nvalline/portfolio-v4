@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
+import AboutContent from './AboutContent';
 
 import 'react-responsive-modal/styles.css';
 import './about.css';
@@ -23,7 +24,7 @@ function AboutBtn() {
             <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>About</p>
             <img src={diamond} alt="diamond" />
             <Modal open={open} onClose={() => setOpen(false)} center>
-                <h2>About Modal Openned</h2>
+                <AboutContent />
             </Modal>
         </div>
     )
