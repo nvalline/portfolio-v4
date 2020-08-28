@@ -1,10 +1,18 @@
 import React, { useState } from 'react';
+import { Modal } from 'react-responsive-modal';
 
+import 'react-responsive-modal/styles.css';
 import './contact.css';
 import square from '../../img/square.svg';
 
 function ContactBtn() {
     const [isShown, setIsShown] = useState(false);
+    const [open, setOpen] = useState(false);
+
+    const closeModal = () => {
+        setOpen(true);
+        setIsShown(false);
+    }
 
     return (
         <div
@@ -13,7 +21,10 @@ function ContactBtn() {
             onMouseLeave={() => setIsShown(false)}
         >
             <img src={square} alt="square" />
-            <p className={isShown ? "showing" : "notShowing"}>Contact</p>
+            <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>Contact</p>
+            <Modal open={open} onClose={() => setOpen(false)} center>
+                <h2>Contact Modal Openned</h2>
+            </Modal>
         </div>
     )
 }

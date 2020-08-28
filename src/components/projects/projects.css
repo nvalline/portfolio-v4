@@ -1,6 +1,5 @@
 /* Projects Btn */
 .projects-btn {
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,6 +11,7 @@
 }
 
 .projects-btn p {
+    cursor: pointer;
     color: #22b2da;
     font-size: 1.875em;
     font-weight: normal;

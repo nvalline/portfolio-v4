@@ -1,6 +1,5 @@
 /* Contact Button */
 .contact-btn {
-    cursor: pointer;
     display: flex;
     position: relative;
     left: 74%;
@@ -15,6 +14,7 @@
 
 .contact-btn p {
     color: #f0d43a;
+    cursor: pointer;
     font-size: 1.875em;
     font-weight: normal;
 }
