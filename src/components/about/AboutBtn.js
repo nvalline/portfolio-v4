@@ -23,7 +23,12 @@ function AboutBtn() {
         >
             <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>About</p>
             <img src={diamond} alt="diamond" />
-            <Modal open={open} onClose={() => setOpen(false)} center>
+            <Modal
+                open={open}
+                onClose={() => setOpen(false)}
+                center
+                classNames={{ modal: 'customModal' }}
+            >
                 <AboutContent />
             </Modal>
         </div>
