@@ -27,7 +27,7 @@ function AboutBtn() {
                 open={open}
                 onClose={() => setOpen(false)}
                 center
-                classNames={{ modal: 'customModal' }}
+                classNames={{ modal: 'aboutModal' }}
             >
                 <AboutContent />
             </Modal>

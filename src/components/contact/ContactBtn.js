@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
+import ContactContent from './ContactContent';
 
 import 'react-responsive-modal/styles.css';
 import './contact.css';
@@ -22,8 +23,13 @@ function ContactBtn() {
         >
             <img src={square} alt="square" />
             <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>Contact</p>
-            <Modal open={open} onClose={() => setOpen(false)} center>
-                <h2>Contact Modal Openned</h2>
+            <Modal
+                open={open}
+                onClose={() => setOpen(false)}
+                center
+                classNames={{ modal: 'contactModal' }}
+            >
+                <ContactContent />
             </Modal>
         </div>
     )
