@@ -46,5 +46,13 @@
         "link": "https://nabeek.github.io/Earthquake-Now/",
         "repoLink": "https://github.com/nvalline/Earthquake-Now",
         "img": "./projectImg/earthquakenow.png"
+    },
+    {
+        "id": 7,
+        "title": "COVIDashboard",
+        "description": "COVIDashboard is an individualized dashboard providing personal contact tracing history and testing and patient data related to the COVID-19 pandemic.",
+        "link": "https://uu-covidashboard.herokuapp.com/",
+        "repoLink": "https://github.com/nvalline/covidashboard",
+        "img": "./projectImg/covidashboard.png"
     }
 ]

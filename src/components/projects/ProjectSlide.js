@@ -20,7 +20,7 @@ export class ProjectSlide extends Component {
 
         return (
             <Slider {...settings}>
-                {data.map(project => (
+                {data.slice(0, 6).map(project => (
                     <SlideContent
                         key={project.id}
                         title={project.title}
