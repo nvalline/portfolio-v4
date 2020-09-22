@@ -5,7 +5,7 @@ import './footer.css';
 function Footer() {
     return (
         <div className="footer">
-            <h2>Providing all of your website needs</h2>
+            <h2>Providing full-stack web development services</h2>
         </div>
     )
 }

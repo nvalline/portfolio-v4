@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Note Taker",
+        "description": "This application allows the user to enter and save notes, view previous notes and delete notes that are no longer needed.",
+        "link": "https://peaceful-meadow-53544.herokuapp.com/",
+        "repoLink": "https://github.com/nvalline/note-taker",
+        "img": "./projectImg/note-taker.png"
+    },
+    {
+        "id": 2,
+        "title": "Day Planner",
+        "description": "This application allows the user to plan out their work day to stay ahead of the game.",
+        "link": "https://nvalline.github.io/day-planner/",
+        "repoLink": "https://github.com/nvalline/day-planner",
+        "img": "./projectImg/dayplanner.png"
+    },
+    {
+        "id": 3,
+        "title": "Weather Dashboard",
+        "description": "This application allows the user to stay up-to-date on the current weather & the forecast for the cities around the nation.",
+        "link": "https://nvalline.github.io/weather-dashboard/",
+        "repoLink": "https://github.com/nvalline/weather-dashboard",
+        "img": "./projectImg/weatherdashboard.png"
+    },
+    {
+        "id": 4,
+        "title": "Eat-Da-Burger",
+        "description": "This application allows the user to log different hamburgers that the user would like to eat and also update the log when the burger has been eaten.",
+        "link": "https://powerful-springs-45034.herokuapp.com/",
+        "repoLink": "https://github.com/nvalline/burger-logger",
+        "img": "./projectImg/eat-da-burger.png"
+    },
+    {
+        "id": 5,
+        "title": "Cookbook",
+        "description": "Cookbook is a community driven recipe database, which gives users the ability to sign-up, submit recipes, search for community recipes, and search a larger 3rd party database.",
+        "link": "https://the-cookbook-app.herokuapp.com/",
+        "repoLink": "https://github.com/nvalline/cookbook",
+        "img": "./projectImg/cookbook-screenshot.png"
+    },
+    {
+        "id": 6,
+        "title": "Earthquake Now",
+        "description": "This application allows the user to quickly find up-to-date seismic data and related news articles for a specified location. This provides the user with valuable information to make informed decisions.",
+        "link": "https://nabeek.github.io/Earthquake-Now/",
+        "repoLink": "https://github.com/nvalline/Earthquake-Now",
+        "img": "./projectImg/earthquakenow.png"
+    }
+]

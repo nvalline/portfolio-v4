@@ -29,3 +29,96 @@
     transition: visibility 1s, opacity 0.5s linear;
     opacity: 1;
 }
+
+/* Project Container Styles */
+.projectModal {
+    background: rgba(46, 48, 54, 0.62) !important;
+    border: 1px solid #DFE0E0;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 0;
+}
+
+.project-header {
+    background-color: rgba(34, 178, 218, 0.8);
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.project-header h2 {
+    color: #DFE0E0;
+    font-size: 1.875em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin: 0;
+    padding: 1.5em 0;
+}
+
+/* Slide Content Styles */
+.react-responsive-modal-modal {
+    max-width: 1135px;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #DFE0E0;
+}
+
+.slick-dots li button:before {
+    color: #DFE0E0;
+}
+
+.slide-content-block {
+    padding: 0 2em;
+}
+
+.project-title {
+    color: #DFE0E0;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+    min-height: 300px;
+}
+
+.project-img {
+    border: 3px solid #22b2da;
+    border-radius: 10px;
+    max-width: 450px;
+}
+
+.project-desc-block {
+    color: #DFE0E0;
+    font-size: 1.25em;
+    max-width: 450px;
+}
+
+.project-desc-block p {
+    line-height: 1.5;
+}
+
+.slide-btns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slide-btns button {
+    background-color: #df5770;
+    border: none;
+    border-radius: 5px;
+    color: #DFE0E0;
+    font-size: 1em;
+    padding: .5em 1.5em;
+}
+
+.slide-btns button:hover {
+    background-color: #91283b;
+    cursor: pointer;
+}

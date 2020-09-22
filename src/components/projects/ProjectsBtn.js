@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal } from 'react-responsive-modal';
+import ProjectContent from './ProjectContent';
 
 import 'react-responsive-modal/styles.css';
 import './projects.css';
@@ -22,8 +23,13 @@ function ProjectsBtn() {
         >
             <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>Projects</p>
             <img src={circle} alt="circle" />
-            <Modal open={open} onClose={() => setOpen(false)} center>
-                <h2>Projects Modal Openned</h2>
+            <Modal
+                open={open}
+                onClose={() => setOpen(false)}
+                center
+                classNames={{ modal: 'projectModal' }}
+            >
+                <ProjectContent />
             </Modal>
         </div>
     )
