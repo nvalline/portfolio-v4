@@ -129,3 +129,11 @@
     background-color: #61bfd8;
     color: #868a8a;
 }
+
+/* SubmitSuccess Styles */
+.submit-success {
+    color: #dfe0e0;
+    font-size: 1.25em;
+    margin-top: 3em;
+    text-align: center;
+}
