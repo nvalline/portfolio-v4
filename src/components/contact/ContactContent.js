@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 import SubmitSuccess from './SubmitSuccess';
 import { FormContext } from '../../utils/FormContext'
 
-import './contact.css';
+import '../../styles/contact.css';
 
 function ContactContent() {
     const [contactForm] = useContext(FormContext);

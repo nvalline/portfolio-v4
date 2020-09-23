@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectSlide from './ProjectSlide';
 
-import './projects.css';
+import '../../styles/projects.css';
 
 function ProjectContent() {
     return (

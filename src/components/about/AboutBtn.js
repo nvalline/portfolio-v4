@@ -3,7 +3,7 @@ import { Modal } from 'react-responsive-modal';
 import AboutContent from './AboutContent';
 
 import 'react-responsive-modal/styles.css';
-import './about.css';
+import '../../styles/about.css';
 import diamond from '../../img/diamond.svg';
 
 function AboutBtn() {

@@ -3,7 +3,7 @@ import { Modal } from 'react-responsive-modal';
 import ProjectContent from './ProjectContent';
 
 import 'react-responsive-modal/styles.css';
-import './projects.css';
+import '../../styles/projects.css';
 import circle from '../../img/circle.svg';
 
 function ProjectsBtn() {

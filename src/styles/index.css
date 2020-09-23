@@ -1,0 +1,36 @@
+/* Min Screen Width 1200px */
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+body, html {
+  font-size: 20px;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Max Screen Width 1200px */
+@media only screen and (max-width: 1200px) {
+  body, html {
+    font-size: 18px;
+  }
+}
+
+/* Max Screen Width 992px */
+  @media only screen and (max-width: 992px) {
+    body, html {
+      font-size: 16px;
+    }
+  }
+
+/* Max Screen Width 768px */
+/* Max Screen Width 600px */

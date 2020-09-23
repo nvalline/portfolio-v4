@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import emailjs from 'emailjs-com';
 import { FormContext } from '../../utils/FormContext';
 
-import './contact.css';
+import '../../styles/contact.css';
 
 function ContactForm() {
     const [contactForm, setContactForm] = useContext(FormContext);

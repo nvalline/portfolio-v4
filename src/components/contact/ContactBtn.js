@@ -3,7 +3,7 @@ import { Modal } from 'react-responsive-modal';
 import ContactContent from './ContactContent';
 
 import 'react-responsive-modal/styles.css';
-import './contact.css';
+import '../../styles/contact.css';
 import square from '../../img/square.svg';
 
 function ContactBtn() {

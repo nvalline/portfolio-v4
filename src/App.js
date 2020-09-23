@@ -7,7 +7,7 @@ import ContactBtn from './components/contact/ContactBtn';
 import Footer from './components/footer/Footer';
 import { FormProvider } from './utils/FormContext';
 
-import './App.css';
+import './styles/App.css';
 
 function App() {
   return (

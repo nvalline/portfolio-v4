@@ -2,7 +2,7 @@ import React from 'react';
 import Social from './Social';
 
 import profileImg from '../../img/profile-image.png';
-import './about.css';
+import '../../styles/about.css';
 
 function AboutContent() {
     return (
