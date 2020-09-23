@@ -1,0 +1,262 @@
+/* Max Screen Width 1200px */
+@media only screen and (max-width: 1200px) {
+    html {
+      font-size: 18px;
+    }
+
+    /* About Button */
+    .about-btn {
+        left: 8%;
+    }
+
+    /* Projects Btn */
+    .projects-btn {
+        left: 74%;
+    }
+
+    /* Slide Content Styles */
+    .react-responsive-modal-modal {
+        max-width: 900px;
+    }
+
+    .project-img {
+        max-width: 375px;
+    }
+
+    .project-desc-block {
+        max-width: 375px;
+    }
+
+    /* Contact Content */
+    .blue-block {
+        width: 580px;
+    }
+
+    .yellow-block {
+        width: 283px;
+    }
+  }
+  
+/* Max Screen Width 992px */
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* Tagline */
+    .tagline h1 {
+        width: 80%;
+    }
+
+    /* About Button */
+    .about-btn {
+        left: 6%;
+        top: 12%;
+    }
+
+    /* About Container */
+    .about-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .bio-image {
+        margin-bottom: 20px;
+    }
+
+    .bio-info {
+        width: 80%;
+    }
+
+    /* Projects Btn */
+    .projects-btn {
+        left: 72%;
+    }
+
+    /* Slide Content Styles */
+    .react-responsive-modal-modal {
+        max-width: 650px;
+    }
+
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .project-img {
+        margin-bottom: 20px;
+        max-width: 375px;
+    }
+
+    .project-desc-block {
+        max-width: 375px;
+    }
+
+    /* Contact Content */
+    .blue-block {
+        width: 400px;
+    }
+
+    .yellow-block {
+        width: 255px;
+    }
+
+    /* Form Styles */
+    .contact-form {
+        width: 70%;
+    }
+
+    .contact-input, .contact-msg, .contact-form-btn {
+        width: 94%;
+    }
+
+    /* Footer */
+    .footer h2 {
+        margin: 5% auto;
+        width: 90%;
+    }
+}
+  
+/* Max Screen Width 768px */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    /* Tagline */
+    .tagline {
+        margin-top: 60px;
+    }
+
+    .tagline h1 {
+        width: 85%;
+    }
+
+    /* About Button */
+    .about-btn {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 25%;
+        margin-left: -85px;
+        top: 62%;
+    }
+    
+    .about-btn p {
+        margin: 7px;
+        text-decoration: underline;
+    }
+
+    /* Projects Btn */
+    .projects-btn {
+        flex-direction: column-reverse;
+        position: absolute;
+        left: 50%;
+        margin-left: -85px;
+        top: 51%;
+    }
+
+    .projects-btn p {
+        text-decoration: underline;
+    }
+
+    /* Slide Content Styles */
+    .react-responsive-modal-modal {
+        max-width: 500px;
+    }
+
+    /* Contact Btn */
+    .contact-btn {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 75%;
+        margin-left: -85px;
+        margin-top: 13px;
+        top: 62%;
+        width: 170px;
+    }
+
+    .contact-btn img {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+    .contact-btn p {
+        margin: 10px;
+        text-decoration: underline;
+    }
+
+    /* Contact Content */
+    .contactModal {
+        max-width: 500px !important;
+    }
+
+    .blue-block {
+        left: 70px;
+        width: 450px;
+    }
+
+    .yellow-block {
+        left: -35px;
+        width: 180px;
+    }
+}
+
+/* Max Screen Width 600px */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+    /* About Button */
+    .about-btn {
+        margin-left: -50px;
+        width: 100px;
+    }
+
+    /* Projects Btn */
+    .projects-btn {
+        margin-left: -50px;
+        width: 100px;
+    }
+
+    /* Slide Content Styles */
+    .react-responsive-modal-modal {
+        max-width: 250px;
+    }
+
+    .project-img {
+        max-width: 240px;
+    }
+
+    .project-desc-block {
+        max-width: 250px;
+    }
+
+    /* Contact Btn */
+    .contact-btn {
+        margin-left: -50px;
+        width: 100px;
+    }
+
+    .contactModal {
+        padding-top: 5em;
+        width: 100% !important;
+    }
+
+    .blue-block {
+        height: unset;
+        left: 0;
+        width: 100%;
+    }
+
+    .yellow-block {
+        display: none;
+    }
+}

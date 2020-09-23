@@ -22,7 +22,7 @@ function ContactBtn() {
             onMouseLeave={() => setIsShown(false)}
         >
             <img src={square} alt="square" />
-            <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>Contact</p>
+            <p className={isShown || window.innerWidth < 768 ? "showing" : "notShowing"} onClick={closeModal}>Contact</p>
             <Modal
                 open={open}
                 onClose={() => setOpen(false)}

@@ -21,7 +21,7 @@ function AboutBtn() {
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
         >
-            <p className={isShown ? "showing" : "notShowing"} onClick={closeModal}>About</p>
+            <p className={isShown || window.innerWidth < 768 ? "showing" : "notShowing"} onClick={closeModal}>About</p>
             <img src={diamond} alt="diamond" />
             <Modal
                 open={open}
