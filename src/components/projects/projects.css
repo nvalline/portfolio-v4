@@ -13,7 +13,7 @@
 .projects-btn p {
     cursor: pointer;
     color: #22b2da;
-    font-size: 1.875em;
+    font-size: 1.5rem;
     font-weight: normal;
     margin: 10px;
 }
@@ -47,7 +47,7 @@
 
 .project-header h2 {
     color: #DFE0E0;
-    font-size: 1.875em;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 3px;
     margin: 0;
@@ -73,7 +73,7 @@
 
 .project-title {
     color: #DFE0E0;
-    font-size: 1.5em;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     margin: 40px 0;
     text-align: center;
@@ -95,7 +95,7 @@
 
 .project-desc-block {
     color: #DFE0E0;
-    font-size: 1.25em;
+    font-size: 1rem;
     max-width: 450px;
 }
 
@@ -115,7 +115,7 @@
     border: none;
     border-radius: 5px;
     color: #DFE0E0;
-    font-size: 1em;
+    font-size: 1rem;
     padding: .5em 1.5em;
 }
 
