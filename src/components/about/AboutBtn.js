@@ -22,7 +22,7 @@ function AboutBtn() {
             onMouseLeave={() => setIsShown(false)}
         >
             <p className={isShown || window.innerWidth < 769 ? "showing" : "notShowing"} onClick={closeModal}>About</p>
-            <img src={diamond} alt="diamond" />
+            <img src={diamond} alt="diamond" onClick={closeModal} className={isShown ? "shape-active" : ""} />
             <Modal
                 open={open}
                 onClose={() => setOpen(false)}

@@ -12,3 +12,8 @@
   border-radius: 5px;
   fill: #dfe0e0;
 }
+
+/* Nav Shapes */
+.shape-active {
+  cursor: pointer;
+}

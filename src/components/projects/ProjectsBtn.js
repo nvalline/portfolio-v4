@@ -22,7 +22,7 @@ function ProjectsBtn() {
             onMouseLeave={() => setIsShown(false)}
         >
             <p className={isShown || window.innerWidth < 769 ? "showing" : "notShowing"} onClick={closeModal}>Projects</p>
-            <img src={circle} alt="circle" />
+            <img src={circle} alt="circle" onClick={closeModal} className={isShown ? "shape-active" : ""} />
             <Modal
                 open={open}
                 onClose={() => setOpen(false)}
