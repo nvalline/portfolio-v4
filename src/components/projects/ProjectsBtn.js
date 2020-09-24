@@ -21,7 +21,7 @@ function ProjectsBtn() {
             onMouseEnter={() => setIsShown(true)}
             onMouseLeave={() => setIsShown(false)}
         >
-            <p className={isShown || window.innerWidth < 768 ? "showing" : "notShowing"} onClick={closeModal}>Projects</p>
+            <p className={isShown || window.innerWidth < 769 ? "showing" : "notShowing"} onClick={closeModal}>Projects</p>
             <img src={circle} alt="circle" />
             <Modal
                 open={open}
