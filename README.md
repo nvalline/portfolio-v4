@@ -1,68 +1,95 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Nate Valline Portfolio V4
 
-## Available Scripts
+<img src="./src/img/pv4-screenshot.png" alt="Portfolio Screenshot" height="500px">
 
-In the project directory, you can run:
+> This portfolio is my fourth version. For this version I have incorporated some of the latest technologies that I have learned.
 
-### `npm start`
+#### [View The Site](https://natevalline.com) - The project is live.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### Table of Contents
 
-### `npm test`
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [How To Use](#how-to-use)
+- [Test(s)](#tests)
+- [Contributors](#contributors)
+- [Questions](#questions)
+- [License](#license)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Description
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This application was built to showcase my most up-to-date coding knowledge, professional information and projects that I have created.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+This React.js application is fully responsive and utilizes some new tech that I have learned on top of the information that I have been learning in the coding bootcamp.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Back To The Top](#project-name)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Technologies
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/portfolio-v4) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/portfolio-v4)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- React.js, Javascript, node.js, HTML, CSS, EmailJS
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[Back To The Top](#project-name)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Simply click the following link to load the application in your browser.
 
-### Code Splitting
+#### [View The Site](https://natevalline.com/) - The project is live.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+[Back To The Top](#project-name)
 
-### Analyzing the Bundle Size
+---
+ 
+## How To Use
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Once the application is loaded in the browser, simply hover over the colorful shapes to display the navigation options. Click the navigation links or colorful shapes to navigate throughout the application.
 
-### Making a Progressive Web App
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+---
 
-### Advanced Configuration
+## Tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+There are no tests.
 
-### Deployment
+[Back To The Top](#project-name)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+---
 
-### `npm run build` fails to minify
+## Contributors
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Nate Valline
+
+[Back To The Top](#project-name)
+
+---
+
+## Questions
+
+Please contact the following for any questions.
+
+<img src="https://avatars3.githubusercontent.com/u/58278138?v=4" alt="User Image" width="35px">  =>  contact@natevalline.com
+
+[Back To The Top](#project-name)
+
+---
+
+## License
+
+Copyright (c) 2020 Nate Valline
+
+[Back To The Top](#project-name)
+
+---
+    
