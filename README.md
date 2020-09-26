@@ -33,7 +33,7 @@ This React.js application is fully responsive and utilizes some new tech that I 
 
 ## Technologies
 
-![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/portfolio-v4) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/portfolio-v4)
+![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/portfolio-v4/) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/portfolio-v4/)
 
 - React.js, Javascript, node.js, HTML, CSS, EmailJS
 
