@@ -10,12 +10,12 @@ function SlideContent({ title, description, link, repoLink, image }) {
                     <h4>Description:</h4>
                     <p>{description}</p>
                     <div className="slide-btns">
-                        <button type="button" onClick={() => (window.open(link, '_blank'))}>
+                        {link !== "#" ? <button type="button" onClick={() => (window.open(link, '_blank'))}>
                             Live Site
-                        </button>
-                        <button type="button" onClick={() => (window.open(repoLink, '_blank'))}>
+                        </button> : ''}
+                        {repoLink !== "#" ? <button type="button" onClick={() => (window.open(repoLink, '_blank'))}>
                             View Code
-                        </button>
+                        </button> : ''}
                     </div>
                 </div>
             </div>

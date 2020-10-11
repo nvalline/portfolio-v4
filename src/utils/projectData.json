@@ -54,5 +54,13 @@
         "link": "https://uu-covidashboard.herokuapp.com/",
         "repoLink": "https://github.com/nvalline/covidashboard",
         "img": "./projectImg/covidashboard.png"
+    },
+    {
+        "id": 8,
+        "title": "Nova Art Restoration",
+        "description": "Nova Art Restoration is a custom Wordpress website for an art resetoration company.  Custom CSS was added to the theme to provide the client with the look and feel desired.",
+        "link": "https:novaartrestoration.com/",
+        "repoLink": "#",
+        "img": "./projectImg/novaartrestoration.png"
     }
 ]
